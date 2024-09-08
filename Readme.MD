@@ -161,19 +161,3 @@ String apiKey = "SUA_CHAVE_API";  // Substitua pela sua chave de API
 ```bash
 curl -X GET http://localhost:8080/clima/Sao%20Paulo
 ```
-
-## Testes
-
-A aplicação está configurada para utilizar o **Testcontainers** (não mostrado no código anterior) para realizar testes de integração reativos com um banco de dados Dockerizado. Para rodar os testes, utilize:
-
-```bash
-mvn test
-```
-
-## Licença
-
-Este projeto está sob a licença [MIT](https://opensource.org/licenses/MIT). 
-
----
-
-Com esse `README.md`, qualquer pessoa pode configurar, executar e utilizar a aplicação, além de entender suas funcionalidades e como interagir com ela.
